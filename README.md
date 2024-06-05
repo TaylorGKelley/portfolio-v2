@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+# Overview
+This is my portfolio website. It is coded in React.js using vite to build it as a lightweight, client side application. It is coded in typescript and will be the hub to display all of my future projects. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The design for the project can be viewed in Figma here(https://www.figma.com/design/Ayh3dxpJQ47pbHzclyVb2P/Portfolio-v2?node-id=9-2&t=CWblZhyEeceWz1k7-1)!
 
-Currently, two official plugins are available:
+## Purpose
+This website is to act as my resume for potential job offers 🙃
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### The Second version
+It is the second version of portfolios I have made, as the first version was a very simple, a single page with vanilla JS made 2 years ago. This code was lost as it was not stored in github.
