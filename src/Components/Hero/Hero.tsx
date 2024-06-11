@@ -13,6 +13,7 @@ export default function Hero() {
       </div>
       <h1 className="title__name">Taylor Kelley</h1>
       <h3 className="title__profession">{'<React Developer />'}</h3>
+      <div className="hero__scroll-icon"></div>
     </div>
   );
 }
