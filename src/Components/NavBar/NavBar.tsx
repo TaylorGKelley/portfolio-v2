@@ -1,5 +1,4 @@
-import React from 'react';
-import NavLink from './NavBarUI/NavLink';
+import React, { useRef } from 'react';
 import './NavBar.css';
 
 type NavBarProps = {
@@ -17,7 +16,9 @@ export default function NavBar({ links }: NavBarProps) {
         <ul className="nav-links__container">
           {links.map(
             ({ title, url }: { title: string; url: string }, index: number) => (
-              <NavLink title={title} url={url} />
+              <li className="nav-link" key={index}>
+                <a href={url}>{title}</a>
+              </li>
             ),
           )}
         </ul>
