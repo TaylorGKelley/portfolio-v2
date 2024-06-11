@@ -15,9 +15,11 @@ export default function NavBar({ links }: NavBarProps) {
         </h1>
 
         <ul className="nav-links__container">
-          <NavLink title="About" url="/#About" />
-          <NavLink title="My Work" url="/#Projects" />
-          <NavLink title="Contact" url="/#Contact" />
+          {links.map(
+            ({ title, url }: { title: string; url: string }, index: number) => (
+              <NavLink title={title} url={url} />
+            ),
+          )}
         </ul>
       </div>
     </nav>
