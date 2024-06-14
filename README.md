@@ -7,4 +7,4 @@ The design for the project can be viewed in Figma here(https://www.figma.com/des
 This website is to act as my resume for potential job offers 🙃
 
 ### The Second version
-It is the second version of portfolios I have made, as the first version was a very simple, a single page with vanilla JS made 2 years ago. This code was lost as it was not stored in github.
+It is the second version of portfolios I have made, as the first version was a very simple, a single page with vanilla JS made 2 years ago. Now I'm re-coding it in React.JS to show my progress in knowledge since starting out!
