@@ -3,8 +3,8 @@ import './Hero.css';
 
 export default function Hero() {
   return (
-    <div className="hero__container flex-column">
-      <div className="flex-column flex-center">
+    <section id="Home">
+      <div className="hero__container flex-column flex-center">
         <div className="image__container">
           <img
             src="/Images/pictureOfMe.jpg"
@@ -18,6 +18,6 @@ export default function Hero() {
       <div>
         <div className="hero__scroll-icon"></div>
       </div>
-    </div>
+    </section>
   );
 }

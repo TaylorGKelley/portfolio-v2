@@ -1,15 +1,16 @@
 import React from 'react';
 import Hero from '../Components/Hero/Hero';
+import About from '../Components/About/About';
+import Projects from '../Components/Projects/Projects';
+import Contact from '../Components/Contact/Contact';
 
 export default function Home() {
   return (
     <>
-      <section id="Home">
-        <Hero />
-      </section>
-      <section id="About"></section>
-      <section id="MyWork"></section>
-      <section id="Contact"></section>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 }
