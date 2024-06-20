@@ -1,5 +1,8 @@
-.hero__container {
+#Home {
   height: 100svh;
+}
+
+.hero__container {
   width: 100%;
   padding-inline: 1rem;
 }
@@ -28,10 +31,7 @@
 }
 
 .hero__scroll-icon-container {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 6rem;
 }
 
 .hero__scroll-icon {
