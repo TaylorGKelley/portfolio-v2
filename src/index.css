@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
+  background-color: #d67418;
   color: rgb(255, 255, 255);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +22,7 @@
 
 /* html {
   font-size: 16px;
-} */
+  } */
 
 body {
   margin: 0;

@@ -1,9 +1,11 @@
 import React from 'react';
 import './Hero.css';
+import BackgroundGradient from '../ui/BackgroundGradient/BackgroundGradient';
 
 export default function Hero() {
   return (
     <section id="Home" className="flex-column flex-center">
+      <BackgroundGradient />
       <div className="hero__container flex-column flex-center">
         <div className="image__container">
           <img

@@ -1,23 +1,17 @@
 import React from 'react';
-import NavBar from './Components/NavBar/NavBar';
-import Home from './Pages/Home';
+import Home from './Pages/Home/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Project from './Pages/Project/Project';
 
 function App() {
   return (
     <>
-      <header>
-        <NavBar
-          links={[
-            { title: 'About', url: '/#About' },
-            { title: 'My Work', url: '/#Projects' },
-            { title: 'Contact', url: '/#Contact' },
-          ]}
-        />
-      </header>
-      <main>
-        <Home />
-      </main>
-      <footer></footer>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" Component={Home} />
+          <Route path="/Project/:projectId" Component={Project} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

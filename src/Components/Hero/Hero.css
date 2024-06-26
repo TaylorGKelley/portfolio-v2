@@ -1,5 +1,6 @@
 #Home {
   height: 100svh;
+  overflow-y: visible;
 }
 
 .hero__container {
@@ -8,10 +9,14 @@
 }
 
 .image__container {
-  height: 13rem;
+  height: 20rem;
+  padding: 2rem;
   aspect-ratio: 1/1;
-  border-radius: 50%;
-  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #a2571088, #ef923c00) 1;
 }
 
 .image__container img {
