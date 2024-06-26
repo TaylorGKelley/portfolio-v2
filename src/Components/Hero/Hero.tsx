@@ -1,5 +1,7 @@
 import React from 'react';
 import './Hero.css';
+import Arch from '../../../public/Icons/Arch.tsx';
+
 import BackgroundGradient from '../ui/BackgroundGradient/BackgroundGradient';
 
 export default function Hero() {
@@ -8,18 +10,18 @@ export default function Hero() {
       <BackgroundGradient />
       <div className="hero__container flex-column flex-center">
         <div className="image__container">
-          <img
-            src="/Images/pictureOfMe.jpg"
-            alt="Image of Taylor Kelley"
-            className="image"
-          />
+          <Arch strokeWidth="18" />
+          <div>
+            <img
+              src="/Images/pictureOfMe.jpg"
+              alt="Image of Taylor Kelley"
+              className="image"
+            />
+          </div>
         </div>
         <h1 className="title__name">Taylor Kelley</h1>
         <h3 className="title__profession">{'<React Developer />'}</h3>
       </div>
-      {/* <div className="hero__scroll-icon-container">
-        <div className="hero__scroll-icon"></div>
-      </div> */}
     </section>
   );
 }

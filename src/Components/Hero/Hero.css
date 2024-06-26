@@ -9,21 +9,26 @@
 }
 
 .image__container {
-  height: 20rem;
-  padding: 2rem;
-  aspect-ratio: 1/1;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-top-width: 3px;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, #a2571088, #ef923c00) 1;
+  position: relative;
+  height: 43rem;
 }
 
-.image__container img {
-  background-color: #e38024;
-  border-radius: 50%;
+.image__container > svg {
   width: 100%;
   height: 100%;
+  position: absolute;
+  overflow: visible;
+}
+
+.image__container > div {
+  width: 30rem;
+  padding: 3rem;
+}
+
+.image__container > div > img {
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1;
   object-fit: cover;
 }
 
