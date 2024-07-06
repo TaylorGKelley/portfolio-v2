@@ -11,13 +11,14 @@ export default function Arch({
   strokeWidth = '9',
   topColor = '#A25710',
   bottomColor = '#EF923C',
-  ...props
+  preserveAspectRatio = 'none',
 }: ArchProps) {
   return (
     <svg
       width={width}
       height={height}
       viewBox="0 0 527 771"
+      preserveAspectRatio={preserveAspectRatio}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
