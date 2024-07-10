@@ -3,7 +3,8 @@ import './Hero.css';
 import Arch from '../../../public/Icons/Arch.tsx';
 
 import BackgroundGradient from '../ui/BackgroundGradient/BackgroundGradient';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFileArrowDown } from 'react-icons/fa6';
 
 export default function Hero() {
   return (
@@ -11,8 +12,19 @@ export default function Hero() {
       <BackgroundGradient />
       <div className="hero__container">
         <div>
-          <div className="hero__icon-container">
-            <FontAwesomeIcon icon="github" />
+          <div className="hero__nav hero__icon-container">
+            <a href="https://github.com/taylorgkelley" target="_blank">
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/taylor-g-kelley"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a>
+            <a href="/Files/Resume.pdf" target="_blank">
+              <FaFileArrowDown />
+            </a>
           </div>
           <div className="image__container">
             <Arch strokeWidth="12" preserveAspectRatio="xMidYMin meet" />
@@ -24,7 +36,7 @@ export default function Hero() {
               />
             </div>
           </div>
-          <nav className="hero__nav">
+          <nav className="hero__nav hero__nav-link-container">
             <ul>
               <li>
                 <a href="#About">About</a>
@@ -38,7 +50,7 @@ export default function Hero() {
             </ul>
           </nav>
         </div>
-        <h1 className="title__name">Taylor Kelley</h1>
+        <h1 className="title__name font-serif">Taylor Kelley</h1>
         <h3 className="title__profession">{'<React Developer />'}</h3>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import { useParams } from 'react-router-dom';
-// import Navbar from '../../Components/Navbar/Navbar';
+import Navbar from '../../Components/NavBar/NavBar';
 
 export default function Project() {
   const { projectId } = useParams();
@@ -9,13 +9,13 @@ export default function Project() {
   return (
     <>
       <header>
-        {/* <Navbar
+        <Navbar
           links={[
             { title: 'About', url: '/#About' },
             { title: 'My Work', url: '/#Projects' },
             { title: 'Contact', url: '/#Contact' },
           ]}
-        /> */}
+        />
       </header>
       <main></main>
       <footer></footer>

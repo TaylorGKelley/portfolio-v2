@@ -1,0 +1,36 @@
+.skills__container {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.skills__container::before,
+.skills__container::after {
+  content: '';
+  width: 100%;
+  max-width: 800px;
+  height: 2px;
+  background-color: #f9ae69;
+  border-radius: 2px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.skills__container::before {
+  top: 0;
+}
+
+.skills__container::after {
+  bottom: 0;
+}
+
+.skills__carousel {
+  display: flex;
+  gap: 5rem;
+  font-size: 100px;
+  color: #f9ae69;
+  justify-content: center;
+  align-self: center;
+}
