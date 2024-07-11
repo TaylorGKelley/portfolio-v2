@@ -1,26 +1,24 @@
 @font-face {
   font-family: 'Work Sans';
-  src: url('../public/Fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+  src: url('/Fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Work Sans';
-  src: url('../public/Fonts/WorkSans-Italic-VariableFont_wght.ttf')
-    format('truetype');
+  src: url('/Fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url('../public/Fonts/Vollkorn-VariableFont_wght.ttf') format('truetype');
+  src: url('/Fonts/Vollkorn-VariableFont_wght.ttf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url('../public/Fonts/Vollkorn-Italic-VariableFont_wght.ttf')
-    format('truetype');
+  src: url('/Fonts/Vollkorn-Italic-VariableFont_wght.ttf') format('truetype');
   font-style: italic;
 }
 

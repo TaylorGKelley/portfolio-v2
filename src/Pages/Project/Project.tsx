@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import { useParams } from 'react-router-dom';
-import Navbar from '../../Components/NavBar/NavBar';
+import Navbar from '../../Components/Navbar/Navbar';
 
 export default function Project() {
   const { projectId } = useParams();
