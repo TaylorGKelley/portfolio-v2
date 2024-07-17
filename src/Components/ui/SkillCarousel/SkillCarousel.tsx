@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import './SkillCarousel.css';
 import { SkillsCarouselLogos } from '../../../data/projectData';
 import { IconType } from 'react-icons';
