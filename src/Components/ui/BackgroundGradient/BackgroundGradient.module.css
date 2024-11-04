@@ -1,9 +1,0 @@
-.background-gradient {
-  background-image: radial-gradient(#ffa754 0%, #d6741800 70%);
-  height: 90svh;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}

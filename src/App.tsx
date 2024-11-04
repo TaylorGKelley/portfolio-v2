@@ -1,19 +1,23 @@
-import React from 'react';
-import Home from './Pages/Home/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Project from './Pages/Project/Project';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/Home';
+import Project from './pages/Project';
+import Error from './pages/Error';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+    errorElement: <Error />,
+  },
+  {
+    path: '/Project/:projectId',
+    element: <Project />,
+    errorElement: <Error />,
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" Component={Home} />
-          <Route path="/Project/:projectId" Component={Project} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

@@ -1,5 +1,4 @@
 {
-  "singleQuote": true,
-  "preferSingleQuotes": true,
-  "trailingComma": "all"
+  "jsxSingleQuote": true,
+  "singleQuote": true
 }

@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./Fonts/WorkSans-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./Fonts/WorkSans-Italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('./Fonts/Vollkorn-Regular.woff') format('woff');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('./Fonts/Vollkorn-Italic.woff') format('woff');
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  @apply text-9xl font-medium;
+}
+
+h2 {
+  @apply text-6xl font-medium;
+}
+
+h3 {
+  @apply text-4xl font-medium;
+}
+
+h4 {
+  @apply text-2xl font-semibold;
+}
+
+h5 {
+  @apply text-xl font-semibold;
+}
+
+@layer utilities {
+  .scroll-narrow::-webkit-scrollbar-track {
+    @apply bg-[transparent];
+  }
+
+  .scroll-narrow::-webkit-scrollbar {
+    @apply w-1.5 bg-[transparent];
+  }
+
+  .scroll-narrow::-webkit-scrollbar-thumb {
+    @apply bg-primary-700 rounded-md;
+  }
+
+  .scroll-narrow::-webkit-scrollbar-button {
+    @apply opacity-0 h-4;
+  }
+}
